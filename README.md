@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="images/preview.png" alt="RDR2 Landing Page" width="700"/>
+  <img src="images/preview.home.png" alt="RDR2 Landing Page" width="700"/>
 </p>
 
 #  RDR2 Landing Page
