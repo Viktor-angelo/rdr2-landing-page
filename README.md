@@ -2,6 +2,10 @@
 
 This project is a fan-made landing page inspired by Red Dead Redemption 2.
 
+##  Preview
+
+![RDR2 Landing Page](images/preview.png)
+
 ##  Status
 Work in progress — this project will be improved as I continue learning JavaScript.
 
