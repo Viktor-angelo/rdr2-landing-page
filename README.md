@@ -1,6 +1,8 @@
-#  RDR2 Landing Page
+<p align="center">
+  <img src="images/preview.png" alt="RDR2 Landing Page" width="700"/>
+</p>
 
-This project is a fan-made landing page inspired by Red Dead Redemption 2.
+#  RDR2 Landing Page
 
 ##  Status
 Work in progress — this project will be improved as I continue learning JavaScript.
