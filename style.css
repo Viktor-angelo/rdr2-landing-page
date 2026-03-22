@@ -1,0 +1,229 @@
+html{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+
+}
+
+section{
+    scroll-margin-top: 80px;
+}
+body{
+    background: linear-gradient(to top, #130d02, #9c2a0d, #9c0505ec);
+    margin: 5px;
+    min-height: 100vh;
+    background-attachment: fixed;
+}
+.navbar-container{
+    width: 100%;
+    height: 80px;
+    padding: 0 2rem;
+    position: absolute;
+    top: 0;
+    right:  5px;
+}
+nav{
+    top: 0;
+    right: 5px;
+    width: 100%;
+    z-index: 10;
+    position: absolute;
+}
+.navbar-items{
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    height: 80px;
+    margin: 50px;
+    display: inline-block;
+}
+.navbar-items li{
+    border: 2px solid transparent;
+    display: inline-block;
+    text-transform: uppercase;
+    margin-left: 25px;
+}
+.navbar-items a{
+    text-shadow: #0f0f0f;
+    color: #fff;
+    text-decoration: none;
+    transition:0.5s;
+}
+.navbar-items a:hover{
+    background-color:linear-gradient(to top, #130d02, #eb380c, #ac0000ec);
+    border-color:linear-gradient(135deg, #d4a017, #e6b800);
+    color: #afafad ;
+}
+.home{
+
+    border-radius: 20px;
+    padding: 20px;
+    background: linear-gradient(135deg, #8b000073, #b91c1c7a);
+    color: floralwhite;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.title1{
+    font-weight: 400;
+    border-radius: 15px;
+    transition: 0.3s ease;
+
+    background: linear-gradient(135deg, #ff2a2a, #8b0000);
+    color: #fff;
+
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 48px;
+    letter-spacing: 3px;
+
+    display: inline-block;
+    padding: 12px 35px;
+
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.6);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.4);
+}
+.title1:hover{
+    transform: scale(1.07);
+    box-shadow: 0 0 25px #ff2a2a;
+}
+p{
+    font-family: 'Open Sans', sans-serif;
+    color: #e5e7eb;
+    font-size: 25px;
+}
+h2{
+    
+    font-family: 'Montserrat', sans-serif;
+    color: floralwhite;
+    font-size: 30px;
+}
+.about{
+    border-radius: 20px;
+   background: linear-gradient(135deg, #b40f0962, #ea0c0c4d);
+    margin-top: 30px;
+    gap: 20px;
+    align-items: flex-start;
+    padding: 20px;
+    display: flex;
+    color: floralwhite;
+    
+}
+.text{
+    max-width: 600px;
+}
+.landscapes{
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-shrink: 0;
+}
+.landscapes img{
+
+    width: 700px;
+    height: auto;
+    margin-top: 70px;
+
+}
+li{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    color:  #e5e7eb;
+}
+.container{
+    display: flex;
+    gap: 30px;
+}
+.main{
+
+    padding: 5px;
+    border-radius: 20px;
+    font-size: 46px;
+    margin-right: 50px;
+    text-align: right;
+}
+.main h2{
+    margin: 50px;
+    margin-right: 180px ;
+}
+.main li{
+    padding: 10px;
+    margin: 0 auto;
+    line-height: 1.6;
+    font-size: 25px;
+    direction: rtl;
+    max-width: 430px;
+    margin-right: 50px;
+    text-align: left;
+}
+.imagem img{
+    margin-left: 40px;
+    position: absolute;
+    top: 1500px;
+    width: 700px;
+    height: auto;
+    margin-top: 10px;
+
+}
+
+.imagem2 img{
+    margin-left: 40px;
+    position: absolute;
+    top: 1950px;
+    width: 700px;
+    height: auto;
+    margin-top: 10px;
+}
+
+.rodape{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-top: 1px solid #dbd6d6;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#e7eaee;
+    margin-top: auto ;
+}
+.imagem3{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.imagem3 img{
+    width: 900px;
+    height: auto;
+}
+.persons{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.persons h2{
+    display: flex;
+    justify-content: center;
+}
+.links a{
+    display: flex;
+    flex-direction: column;
+
+}
+
+@media (max-width:576px){
+    .navbar-items li{
+        font-size: 13px;
+        margin-left: 10px;
+    }
+    .home{
+         margin: 15px;
+        max-width: 100%;
+        margin-bottom: 10px;
+        width: 100%;
+    }
+    .home p, h2{
+        flex-direction: column;
+    }
+}
